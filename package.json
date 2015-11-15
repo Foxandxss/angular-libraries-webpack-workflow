@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Foxandxss/angular-libraries-webpack-workflow/issues"
   },
-  "homepage": "https://github.com/Foxandxss/angular-libraries-webpack-workflow#readme"
+  "homepage": "https://github.com/Foxandxss/angular-libraries-webpack-workflow#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "webpack": "^1.12.6"
+  }
 }
