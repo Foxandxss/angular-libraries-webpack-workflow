@@ -1,7 +1,7 @@
-class Unnamed {
-  greet() {
-    return 'Welcome to this libraries workflow'
-  }
-}
+import angular from 'angular';
 
-console.log(new Unnamed().greet());
+const ngLibraryName = 'unnamed';
+
+export default ngLibraryName;
+
+angular.module(ngLibraryName, []);
